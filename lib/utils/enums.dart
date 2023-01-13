@@ -1,0 +1,1 @@
+enum ClassType { Profile, LogIn }

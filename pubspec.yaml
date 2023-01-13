@@ -1,0 +1,44 @@
+name: the_academy_poker
+description: Poker
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Material design
+  cupertino_icons: ^1.0.0
+  chewie: ^0.9.10
+  video_player: ^0.10.12
+  fluttertoast: ^7.1.1
+  cached_network_image: ^2.3.2+1
+  rounded_loading_button: ^1.0.15
+  image_picker: ^0.6.7+14
+  #Functions
+  email_validator: ^1.0.0
+  shared_preferences: ^0.5.12
+  #Architecture
+  flutter_bloc: ^6.1.1
+  equatable: ^1.2.5
+  #Api
+  dio: ^3.0.10
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+
